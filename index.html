@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- <link href="https://unpkg.com/animate.css@3.5.1/animate.min.css" rel="stylesheet" type="text/css"> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="css/dplay.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="container-fluid">
+            <h1 class="text-center">Colores para web paginate</h1>
+            <div class="jumbotron">
+                <div class="text-center pb-5"><h4>Bloque de Colores</h4></div>
+                <div class="row">
+                    <div class="col-12 col-md-9">
+                        <div class="d-flex justify-content-center">
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-0'" class="redclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-1'" class="redclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-2'" class="redclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-3'" class="redclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-4'" class="redclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-5'" class="redclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-6'" class="redclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-7'" class="redclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-8'" class="redclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='redclear-9'" class="redclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-0'" class="reddark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-1'" class="reddark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-2'" class="reddark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-3'" class="reddark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-4'" class="reddark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-5'" class="reddark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-6'" class="reddark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-7'" class="reddark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-8'" class="reddark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='reddark-9'" class="reddark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-0'" class="purpleclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-1'" class="purpleclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-2'" class="purpleclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-3'" class="purpleclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-4'" class="purpleclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-5'" class="purpleclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-6'" class="purpleclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-7'" class="purpleclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-8'" class="purpleclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpleclear-9'" class="purpleclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-0'" class="purpledark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-1'" class="purpledark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-2'" class="purpledark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-3'" class="purpledark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-4'" class="purpledark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-5'" class="purpledark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-6'" class="purpledark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-7'" class="purpledark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-8'" class="purpledark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='purpledark-9'" class="purpledark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-0'" class="blueclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-1'" class="blueclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-2'" class="blueclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-3'" class="blueclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-4'" class="blueclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-5'" class="blueclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-6'" class="blueclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-7'" class="blueclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-8'" class="blueclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blueclear-9'" class="blueclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-0'" class="bluedark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-1'" class="bluedark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-2'" class="bluedark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-3'" class="bluedark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-4'" class="bluedark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-5'" class="bluedark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-6'" class="bluedark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-7'" class="bluedark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-8'" class="bluedark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='bluedark-9'" class="bluedark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-0'" class="lightblueclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-1'" class="lightblueclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-2'" class="lightblueclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-3'" class="lightblueclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-4'" class="lightblueclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-5'" class="lightblueclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-6'" class="lightblueclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-7'" class="lightblueclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-8'" class="lightblueclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightblueclear-9'" class="lightblueclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-0'" class="lightbluedark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-1'" class="lightbluedark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-2'" class="lightbluedark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-3'" class="lightbluedark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-4'" class="lightbluedark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-5'" class="lightbluedark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-6'" class="lightbluedark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-7'" class="lightbluedark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-8'" class="lightbluedark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='lightbluedark-9'" class="lightbluedark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-0'" class="greenclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-1'" class="greenclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-2'" class="greenclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-3'" class="greenclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-4'" class="greenclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-5'" class="greenclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-6'" class="greenclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-7'" class="greenclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-8'" class="greenclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greenclear-9'" class="greenclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-0'" class="greendark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-1'" class="greendark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-2'" class="greendark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-3'" class="greendark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-4'" class="greendark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-5'" class="greendark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-6'" class="greendark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-7'" class="greendark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-8'" class="greendark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='greendark-9'" class="greendark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-0'" class="yellowclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-1'" class="yellowclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-2'" class="yellowclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-3'" class="yellowclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-4'" class="yellowclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-5'" class="yellowclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-6'" class="yellowclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-7'" class="yellowclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-8'" class="yellowclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowclear-9'" class="yellowclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-0'" class="yellowdark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-1'" class="yellowdark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-2'" class="yellowdark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-3'" class="yellowdark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-4'" class="yellowdark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-5'" class="yellowdark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-6'" class="yellowdark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-7'" class="yellowdark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-8'" class="yellowdark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='yellowdark-9'" class="yellowdark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-0'" class="orangeclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-1'" class="orangeclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-2'" class="orangeclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-3'" class="orangeclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-4'" class="orangeclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-5'" class="orangeclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-6'" class="orangeclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-7'" class="orangeclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-8'" class="orangeclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangeclear-9'" class="orangeclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-0'" class="orangedark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-1'" class="orangedark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-2'" class="orangedark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-3'" class="orangedark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-4'" class="orangedark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-5'" class="orangedark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-6'" class="orangedark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-7'" class="orangedark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-8'" class="orangedark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='orangedark-9'" class="orangedark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-0'" class="whiteclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-1'" class="whiteclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-2'" class="whiteclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-3'" class="whiteclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-4'" class="whiteclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-5'" class="whiteclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-6'" class="whiteclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-7'" class="whiteclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-8'" class="whiteclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whiteclear-9'" class="whiteclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-0'" class="whitedark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-1'" class="whitedark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-2'" class="whitedark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-3'" class="whitedark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-4'" class="whitedark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-5'" class="whitedark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-6'" class="whitedark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-7'" class="whitedark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-8'" class="whitedark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='whitedark-9'" class="whitedark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-0'" class="grayclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-1'" class="grayclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-2'" class="grayclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-3'" class="grayclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-4'" class="grayclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-5'" class="grayclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-6'" class="grayclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-7'" class="grayclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-8'" class="grayclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='grayclear-9'" class="grayclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-0'" class="graydark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-1'" class="graydark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-2'" class="graydark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-3'" class="graydark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-4'" class="graydark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-5'" class="graydark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-6'" class="graydark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-7'" class="graydark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-8'" class="graydark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='graydark-9'" class="graydark-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-0'" class="blackclear-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-1'" class="blackclear-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-2'" class="blackclear-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-3'" class="blackclear-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-4'" class="blackclear-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-5'" class="blackclear-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-6'" class="blackclear-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-7'" class="blackclear-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-8'" class="blackclear-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackclear-9'" class="blackclear-9 "></div>
+                                </div>
+                            </div>
+                            <div class="color-group">
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-0'" class="blackdark-0 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-1'" class="blackdark-1 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-2'" class="blackdark-2 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-3'" class="blackdark-3 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-4'" class="blackdark-4 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-5'" class="blackdark-5 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-6'" class="blackdark-6 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-7'" class="blackdark-7 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-8'" class="blackdark-8 "></div>
+                                </div>
+                                <div class="color-block">
+                                    <div @mouseover="csscolor='blackdark-9'" class="blackdark-9 "></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="text-center">
+                            <h4 class="mt-2">Code of Color</h4>
+                            <div><small>Css</small><br /><code> class="{{csscolor}}"</code></div>
+                            <div class="color-swatch py-5">
+                                <div :class='""+csscolor'></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-center"></div>
+                 <div color-block>
+                     <div style="height: 100px; width: 100px;"></div>
+                 </div>
+            </div>
+
+        </div>
+
+        <button @mouseover="btn='warning'" @mouseleave="btn='primary'" :class='"btn btn-block btn-"+btn'>
+            {{ btn }}
+        </button>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                csscolor: 'bg-danger',
+                btn: 'primary'
+            }
+        })
+    </script>
+
+</body>
+
+</html>
